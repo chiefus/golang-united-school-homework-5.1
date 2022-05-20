@@ -10,11 +10,11 @@ type Square struct {
 }
 
 func (square *Square) Perimeter() uint {
-	return square.a * square.a
+	return square.a * 4
 }
 
 func (square *Square) Area() uint {
-	return square.a * 4
+	return square.a * square.a
 }
 
 func (square *Square) End() Point {
