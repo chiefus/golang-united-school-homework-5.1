@@ -9,12 +9,12 @@ type Square struct {
 	a     uint
 }
 
-func (square *Square) Perimeter() float64 {
-	return float64(square.a * square.a)
+func (square *Square) Perimeter() uint {
+	return square.a * square.a
 }
 
-func (square *Square) Area() float64 {
-	return float64(square.a * 4)
+func (square *Square) Area() uint {
+	return square.a * 4
 }
 
 func (square *Square) End() Point {
