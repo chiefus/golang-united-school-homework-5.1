@@ -19,6 +19,6 @@ func (square *Square) Area() uint {
 
 func (square *Square) End() Point {
 	endX := square.start.x + int(square.a)
-	endY := square.start.y - int(square.a)
+	endY := square.start.y + int(square.a)
 	return Point{x: endX, y: endY}
 }
